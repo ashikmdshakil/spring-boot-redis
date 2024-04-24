@@ -69,7 +69,7 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>3.7.0</version> <!-- Or the version you want to use -->
+            <!--<version>3.7.0</version> &lt;!&ndash; Or the version you want to use &ndash;&gt;-->
         </dependency>
 
     </dependencies>

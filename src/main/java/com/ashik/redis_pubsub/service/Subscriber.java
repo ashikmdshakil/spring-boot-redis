@@ -7,6 +7,6 @@ public class Subscriber implements MessageListener {
 
     @Override
     public void onMessage(Message message, byte[] pattern) {
-        System.out.println("Body is "+message.getBody());
+        System.out.println("Body is "+message);
     }
 }

@@ -39,7 +39,7 @@ public class RedisConfig {
 
     @Bean
     public ChannelTopic channelTopic() {
-        return new ChannelTopic("pubsub:my_channel");
+        return new ChannelTopic("my_channel");
     }
 
     @Bean
